@@ -1,7 +1,9 @@
 import axios from 'axios';
+import { WEATHER_API_KEY } from '@env';
 
-// API key for OpenWeatherMap
-const API_KEY = 'd3ae26a46a817cad31183e0f4bcb6456';
+// API key for Firebase
+const API_KEY = WEATHER_API_KEY;
+
 
 // Base URL for fetching weather data
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
