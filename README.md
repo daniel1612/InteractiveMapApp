@@ -33,6 +33,13 @@ An interactive map application developed using React Native that allows users to
     ```sh
     npm install
     ```
+     If the installation fails, try running the following command:
+    ```sh
+    npm install --legacy-peer-deps
+    ```
+
+    **Explanation:**
+    The `--legacy-peer-deps` flag is used to address dependency compatibility issues in your project.
 
 4. **Start the application:**
     ```sh
